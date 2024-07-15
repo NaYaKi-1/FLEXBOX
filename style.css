@@ -6,10 +6,10 @@
 
 body {
     background-color: rgb(10, 7, 37); 
-    height: 100vh; /* Ajoute cette ligne pour s'assurer que le body prend toute la hauteur de la fenêtre */
-    display: flex; /* Ajoute cette ligne pour utiliser flexbox sur le body */
-    align-items: center;/* Centrer horizontalement */
-    justify-content: center;/* Centrer verticalement */
+    height: 100vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 
