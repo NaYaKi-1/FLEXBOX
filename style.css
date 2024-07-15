@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(10, 7, 37); 
-    height: 100vh; 
+    height: 100vh;
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -90,6 +90,7 @@ button{
 button:hover{
    background-color: rgba(247, 142, 5, 0.678);
    color: white;
+   transition: 0.5s;
 }
 
 
@@ -109,7 +110,7 @@ button:hover{
     }
     .item {
         width: 500px;
-        height: 350px;
+        height: 320px;
     }
     .text h1{
         font-size: 32px;
@@ -154,35 +155,6 @@ button:hover{
     button {
         bottom: 10px;
     }
-}
-@media only screen and (max-width:720px) {
-    body{
-        height: 100vh;
-    }
-    .container{
-        flex-direction: column;
-    }
-    .item {
-        width: 300px;
-        height: 200px;
-    }
-    .text h1{
-        font-size: 24px;
-        
-        top: 60px;
-    }
-    .text h3{
-        
-        font-size: 18px;
-    }
-    .text p{
-        font-size: 12px;
-    }
-    .item:hover{
-        left: 35px;
-        bottom: 0px;
-    }
-    
 }
 
     @media only screen and (max-width:542px) {
@@ -229,8 +201,6 @@ button:hover{
     }
     .text h1{
         font-size: 26px;
-        
-        top: 60px;
     }
     .text h3{
         
@@ -301,7 +271,7 @@ button:hover{
         bottom: 0px;
     }
     .item:hover{
-        left: 35px;
+        left: 30px;
         bottom: 0px;
     }
 }
