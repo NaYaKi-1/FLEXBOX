@@ -93,6 +93,13 @@ button:hover{
 }
 
 
+
+
+
+
+/*media queries*/
+
+
 @media only screen and (max-width:910px) {
     body{
         height: 100vh;
@@ -147,6 +154,35 @@ button:hover{
     button {
         bottom: 10px;
     }
+}
+@media only screen and (max-width:720px) {
+    body{
+        height: 100vh;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .item {
+        width: 300px;
+        height: 200px;
+    }
+    .text h1{
+        font-size: 24px;
+        
+        top: 60px;
+    }
+    .text h3{
+        
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .item:hover{
+        left: 35px;
+        bottom: 0px;
+    }
+    
 }
 
     @media only screen and (max-width:542px) {
